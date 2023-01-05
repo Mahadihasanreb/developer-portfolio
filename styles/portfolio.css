@@ -76,7 +76,8 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-top: 130px;
 }
 
@@ -145,4 +146,29 @@ section{
 .skill-description {
     color: #757575;
 }
+
 /* resume styles */
+.Resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.resume .description {
+    color: #757575;
+
+}
